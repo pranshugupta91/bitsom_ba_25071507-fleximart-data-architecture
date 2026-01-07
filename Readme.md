@@ -5,7 +5,7 @@ Email: [pranshu.gupta91@gmail.com]
 Date: January 2026
 
 ## Project Overview
-This project demonstrates the design and implementation of an end-to-end data architecture for FlexiMart. It covers the complete lifecycle from ingesting raw CSV data using an ETL pipeline, designing normalized relational schemas, performing business analytics with SQL, evaluating and implementing NoSQL solutions, and finally building a star-schema-based data warehouse for OLAP analysis.
+This project demonstrates the design and implementation of an end-to-end data architecture for FlexiMart. It covers the complete lifecycle from ingesting raw CSVs using an ETL pipeline, designing normalized relational schemas, performing business analytics with SQL, evaluating and implementing NoSQL solutions, and finally building a star-schema-based data warehouse for OLAP analysis.
 
 ## Repository Structure
 ```
@@ -27,11 +27,10 @@ This project demonstrates the design and implementation of an end-to-end data ar
 ```
 
 ## Technologies Used
-- Python 3.x (pandas, mysql-connector-python)
+- Python 3.x
 - MySQL 8.0 / PostgreSQL 14
 - MongoDB 6.0
 - SQL (OLTP & OLAP)
-
 
 ## Setup Instructions
 ### Database Setup
@@ -59,7 +58,7 @@ mongosh < part2-nosql/mongodb_operations.js
 ```
 
 ## Key Learnings
-This project strengthened my understanding of designing reliable ETL pipelines and handling real-world data quality issues. I gained hands-on experience with relational modeling, normalization, and writing complex SQL queries for business analytics. Additionally, I learned how NoSQL databases like MongoDB complement relational systems for flexible data models, and how star schemas enable efficient analytical querying in data warehouses.
+This project helped me to understand the designing of reliable ETL pipelines and handling real-world data quality issues. I gained hands-on experience with relational modeling, normalization, and writing complex SQL queries for business analytics. Additionally, I learned how NoSQL databases like MongoDB complement relational systems for flexible data models, and how star schemas enable efficient analytical querying in data warehouses. It was a little challenging to get hands-on understanding of the processes as the lectures couldn't surface the baseline for the codelines/steps related to the questions mentioned in the assignment. But, it was really interesting and challenging to research and dive deeper into the ETL concepts.
 
 ## Challenges Faced
 1. Handling data quality issues in raw CSV files – Solved by applying systematic cleaning steps such as de-duplication, standardization, and validation during the transformation stage.
